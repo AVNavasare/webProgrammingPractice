@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    
+    <script>
+      <form action="/api/login" method="POST">
+        <table>
+          <tr>
+            <td>username</td>
+            <td>
+              <input type="text" id="username" name="username" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Password</label>
+            </td>
+            <td>
+              <input type="password" id="password" name="password" required />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button type="submit">Login</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </script>
+    <a href="register.html">Register new Customer</a>
+  </body>
+</html>
